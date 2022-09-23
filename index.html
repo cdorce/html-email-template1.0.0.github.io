@@ -91,8 +91,21 @@
             
         }
 
-
+        :root {
+            color-scheme: light dark;
+            supported-color-scheme:light dark;
+        }
         @media (prefers-color-scheme:dark){
+            body, center, table {
+                background: #2d2d2d!important;
+                color:#ffffff;
+
+            }
+
+            .darkmode-transparent{
+                background-color: transparent!important ;
+            }
+           
             
         }
 
